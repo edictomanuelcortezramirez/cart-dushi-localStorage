@@ -12,32 +12,6 @@ body {
 .container {
   z-index: -1;
 }
-/* .container::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('img/fil2.webp'), url('img/fil1.webp');
-  background-position: bottom, top;
-  background-size: contain, contain;
-  background-repeat: no-repeat, no-repeat;
-  z-index: -1;
-} */
-/* .transition-fade {
-  opacity: 1;
-  transition: 500ms;
-  transform: translateX(0);
-  transform-origin: left;
-}
-html.is-animating .transition-fade {
-  opacity: 0;
-  transform: translateX(100%);
-}
-html.is-leaving .transition-fade {
-  opacity: 0;
-} */
 .navbar {
   margin: 5% 0 0 10%;
 }
@@ -58,99 +32,7 @@ html.is-leaving .transition-fade {
 .anchor {
   display: none;
 }
-/* .textwo {
-  margin: 13% 0 10% 0;
-} */
-/* .welOne {
-  font-size: 30px;
-  color: #f8ada8;
-  margin: 0;
-} */
-/* .welTwo {
-  font-size: 80px;
-  font-family: 'Lobster', cursive;
-  color: #dc776f;
-} */
-/* .weltwoName {
-  font-size: 60px;
-  font-family: 'Lobster', cursive;
-  color: #dc776f;
-} */
-/* .welTwoLog {
-  font-size: 30px;
-  font-family: 'Lobster', cursive;
-  color: #dc776f;
-  margin-left: 10px;
-} */
-/* .welThree {
-  color: #f8ada8;
-  font-size: 18px;
-  margin-bottom: 30px;
-} */
-/* .btn.btn-danger {
-  background-color: #dc776f;
-  border-color: #dc776f;
-  font-size: 20px;
-  letter-spacing: 2px;
-  width: 30%;
-} */
-/* .effect {
-  display: none;
-  margin: 17% 0 22% 0;
-  text-align: -webkit-center;
-}
-.circle {
-  position: relative;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-/* .logo {
-  position: absolute;
-  width: 400px;
-  height: 400px;
-  background: url(image.png);
-  background-size: cover;
-  margin-left: 10%;
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
-/* .img {
-  bottom: 90px;
-  position: relative;
-  margin-left: 15%;
-} */
-/* .svg-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 130%;
-  height: 120%;
-} */
-/* .text {
-  font-family: 'Lobster', cursive;
-  color: #2b8d95;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.text span {
-  position: absolute;
-  left: 50%;
-  bottom: 150%;
-  font-size: 1.8em;
-  transform-origin: 0 150px;
-} */
 .groupRed {
   justify-content: center;
   margin-top: 1%;
@@ -168,131 +50,14 @@ html.is-leaving .transition-fade {
   color: #2b8d95;
   margin: 0 15px 0 15px;
 }
-/* .greeting {
-  display: none;
-}
-.hrGreeting {
-  display: none;
-  color: #cfb175;
-  margin-left: 25%;
-  width: 50%;
-} */
-/* .media {
-  display: none;
-}
-.hr {
-  display: none;
-  color: #cfb175;
-  margin-left: 25%;
-  width: 50%;
-} */
-/* .bio {
-  display: none;
-  text-align: -webkit-center;
-}
-.bio h4 {
-  color: #f8ada8;
-  font-size: 26px;
-  font-weight: 400;
-  text-align: center;
-  margin: 28px 0 28px 0;
-  letter-spacing: 2px;
-}
-.bio p {
-  display: none;
-  font-size: 17px;
-  width: 85%;
-  text-align: justify;
-  margin: 0 0 30px 0;
-} */
 
-/* .footer {
-  display: none;
-  text-align: center;
-  content: '';
-  font-family: 'Montserrat Alternates', sans-serif;
-  padding-bottom: 28px;
-  color: #2b8d95;
-  font-size: 22px;
-}
-.footer h4 {
-  color: #f8ada8;
-  font-size: 20px;
-  font-weight: 400;
-  text-align: center;
-}
-.footer a {
-  color: #2b8d95;
-  font-size: 18px;
-  font-weight: 500;
-  letter-spacing: 0px;
-} */
-/* ---aboutMe----- */
-/* .aboutTwo {
-  margin: 13% 0 10% 0;
-}
-.aboutWelOne {
-  font-size: 60px;
-  font-family: 'Lobster', cursive;
-  color: #dc776f;
-}
-.welTwo {
-  font-size: 80px;
-  font-family: 'Lobster', cursive;
-  color: #dc776f;
-}
-.aboutWeltwoName {
-  font-size: 60px;
-  font-family: 'Lobster', cursive;
-  color: #dc776f;
-}
-.aboutWelTwoLog {
-  font-size: 30px;
-  font-family: 'Lobster', cursive;
-  color: #dc776f;
-  margin-bottom: 10px;
-}
-.aboutWelThree {
-  color: #f8ada8;
-  font-size: 18px;
-  margin-bottom: 30px;
-} */
-/* -----services------ */
-/* .serviTwo {
-  margin: 13% 0 10% 0;
-}
-.serviWelOne {
-  font-size: 60px;
-  font-family: 'Lobster', cursive;
-  color: #dc776f;
-} */
-/* .welTwo {
-  font-size: 80px;
-  font-family: 'Lobster', cursive;
-  color: #dc776f;
-} */
 .serviWelTwo {
   font-size: 60px;
 
   font-family: 'Lobster', cursive;
   color: #dc776f;
 }
-/* .serviWeltwoName {
-  font-size: 60px;
-  font-family: 'Lobster', cursive;
-  color: #dc776f;
-} */
-/* .serviWelTwoLog {
-  font-size: 30px;
-  font-family: 'Lobster', cursive;
-  color: #dc776f;
-  margin-bottom: 10px;
-} */
-/* .serviWelThree {
-  color: #f8ada8;
-  font-size: 18px;
-  margin-bottom: 30px;
-} */
+
 #product-container {
   display: flex;
   flex-wrap: wrap;
@@ -349,38 +114,6 @@ html.is-leaving .transition-fade {
   font-weight: 500;
   letter-spacing: 2px;
 }
-/* ----------------- */
-/* .tipsWelTwo {
-  font-size: 80px;
-  font-family: 'Lobster', cursive;
-  color: #dc776f;
-} */
-/* .tipsWeltwoName {
-  font-size: 45px;
-  font-family: 'Lobster', cursive;
-  color: #dc776f;
-} */
-/* .imgtips {
-  width: 430px;
-
-  border-width: 10px;
-  border-color: #f8ada8;
-  border-style: solid;
-} */
-/* .tipsGroupRed a {
-  font-size: 35px;
-  color: #2b8d95;
-  margin: 0 10px 0 10px;
-}
-.tipsTextwo {
-  margin: 2% 0 10% 0;
-  align-items: center;
-}
-.tipsWelThree {
-  color: #dc776f;
-  font-size: 18px;
-  margin: 13px 0 30px 0;
-} */
 /* -------------cart------------ */
 .btn-group {
   margin: 0 10px 0 5px;
