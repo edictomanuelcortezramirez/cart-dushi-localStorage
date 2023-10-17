@@ -1,0 +1,58 @@
+const esmaltes = [
+  {
+    id: 2115,
+    marca: 'Bluesky',
+    tipo: 'Esmalte semipermanente',
+    img: 'img/backdoor-wave-bluesky.webp',
+    precio: 10.0,
+  },
+  {
+    id: 2107,
+    marca: 'Bluesky',
+    tipo: 'Esmalte semipermanente',
+    img: 'img/knockout-blow-bluesky.webp',
+    precio: 10.0,
+  },
+  {
+    id: 2116,
+    marca: 'Bluesky',
+    tipo: 'Esmalte semipermanente',
+    img: 'img/ss2116-alright-bluesky.webp',
+    precio: 10.0,
+  },
+  {
+    id: 2120,
+    marca: 'Bluesky',
+    tipo: 'Esmalte semipermanente',
+    img: 'img/ss2120-your-tempo-bluesky.webp',
+    precio: 10.0,
+  },
+  {
+    id: 538,
+    marca: 'Bluesky',
+    tipo: 'Esmalte semipermanente',
+    img: 'img/faux-fur-538-bluesky.webp',
+    precio: 10.0,
+  },
+  {
+    id: 540,
+    marca: 'Bluesky',
+    tipo: 'Esmalte semipermanente',
+    img: 'img/mad-about-mauve-bsh016-bluesky.webp',
+    precio: 10.0,
+  },
+  {
+    id: 1903,
+    marca: 'Bluesky',
+    tipo: 'Esmalte semipermanente',
+    img: 'img/ss1903-bluesky.webp',
+    precio: 10.0,
+  },
+  {
+    id: 609,
+    marca: 'Bluesky',
+    tipo: 'Esmalte semipermanente',
+    img: 'img/tundra-609-bluesky.webp',
+    precio: 10.0,
+  },
+];
